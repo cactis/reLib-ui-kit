@@ -1,0 +1,26 @@
+{
+  "name": "reLib-ui-kit",
+  "version": "1.0.0",
+  "description": "ui kit for readus-reLib desktop & web application",
+  "main": "index.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "dev": "tsc -p tsconfig.json --watch",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "cactis <cactis.lin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^6.1.14",
+    "tsconfig": "^7.0.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.34"
+  }
+}
